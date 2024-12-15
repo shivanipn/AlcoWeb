@@ -1,0 +1,36 @@
+<%- include('Header') -%>
+<div class="container">
+    <div class="row log">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+        <h1>WELCOME</h1>
+        <p class="text-center">login for seamless experience</p>
+        <form action="/post_log" method="post">
+            <input class="wbr-inp-mobile bg-transparent" data-val="true" data-val-regex="Not a valid mobile number. Please enter 10 digit mobile number" data-val-regex-pattern="^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$" data-val-required="The Mobile field is required." id="Mobile" max="15" maxlength="15" min="10" name="Mobile" placeholder="Enter your 10 digit mobile no." style="font-size: 24px !important;" type="tel" value="" name="mobile">
+        </form>
+        <center>
+        <button type="button" id="send-otp" class="wbr-btn-send-otp default-link btn w-100 btn-dark bg-bravo fw-600  rounded-10 py-2" type="submit">SEND OTP</button>
+        
+    </center>
+    </div>
+    <div class="col-md-3">
+        <a href="/register" style="font-size: 20px; margin-left:90px;">Create Accout</a>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include('Footer') -%>

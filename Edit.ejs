@@ -1,0 +1,46 @@
+<%- include('Header') -%>
+
+
+<div class="container">
+    <div class="row regi_form">
+        <h2 class="text-center">Edit Here</h2>
+        <div class="col-md-6 mt-5">
+            <img src="https://img.freepik.com/premium-photo/fun-teenager-animation_183364-27024.jpg?w=740" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-6 mt-5">
+            <form action="/edit_page/<%=editdata._id%>" method="post" class="shadow-sm" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="">Name:</label>
+                    <input type="text" class="form-control" name="name"  value="<%=editdata.Name%>">
+                </div>
+                <div class="form-group">
+                    <label for="">Email:</label>
+                    <input type="mail" class="form-control" name="email" value="<%=editdata.Email%>">
+                </div>
+                <div class="form-group">
+                    <label for="">Pasword:</label>
+                    <input type="password" class="form-control" name="password" value="<%=editdata.Password%>">
+                </div>
+                <div class="form-group">
+                    <label for="">D.O.B.:</label>
+                    <input type="date" class="form-control" name="date" value="<%=editdata.Date%>">
+                </div>
+                <div class="form-group">
+                    <label for="">Avtar:</label>
+                    <input type="file" class="form-control" name="image" value="<%=editdata.image%>">
+                </div>
+                <center>
+                    <button class="btn"  type="submit">Update</button>
+                </center>
+            </form>
+           
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+<%- include('Footer') -%>

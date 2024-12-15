@@ -1,0 +1,44 @@
+<%- include('Header') -%>
+ 
+
+<h1 class="text-center">Confirmation Page</h1>
+
+<div class="row">
+    <div class="col-md-5">
+        <img src="https://img.freepik.com/premium-photo/fun-backpacker-guy_183364-42829.jpg?w=740" alt="" class="img-fluid ms-5" style="height: 350px;">
+    </div>
+    <div class="col-md-7 ">
+<form action="/confirm_page" method="post">
+    
+    <div class="form-group">
+        <label for="">Name:</label>
+        <input type="text" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Email:</label>
+        <input type="text"  class="form-control" name="email" >
+    </div>
+    <div class="form-group">
+        <label for="">Password:</label>
+        <input type="text"  class="form-control" name="password">
+    </div>
+    <div class="form-group">
+        <label for="">Date:</label>
+        <input type="text"  class="form-control" name="date">
+    </div>
+    <div class="form-group">
+        <label for="">Avatar:</label>
+        <input type="text"  class="form-control">
+    </div>
+    <center>
+        <button class="btn bg-warning " type="submit">Save</button>
+        <button class="btn bg-warning " type="">Cancel</button>
+    </center>
+</form>
+</div>
+</div>
+
+
+
+
+<%- include('Footer') -%>

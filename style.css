@@ -1,0 +1,402 @@
+html, body {
+   
+    scroll-behavior: smooth;
+    
+    
+}
+  
+.navbar{
+    background-color:#4d004d;
+}
+.navbar .navbar-brand{
+    height: auto;
+    width: 100px;
+}
+/* .navbar img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 80px;
+} */
+/* .navbar-form .form-control{
+    padding-left: 100px;
+    margin-left: 100px;
+}
+.navbar-form button{
+    padding-left: 40px;
+} */
+
+/* .navbar.nav-item .nav-link{
+    color: var(--bravo-color);
+    
+} */
+.navbar ul li{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.navbar ul li a{
+    color:#a07309 ;
+    font-size: 18px;
+    text-transform:uppercase;
+}
+.cardrow .card{
+    margin-top: 50px;
+    
+}
+.cardrow img{
+    border-radius: 10px 10px 0 0;
+}
+.cardrow .card-text{
+    background-color: #4d004d;
+    padding: 10px; 
+    color: #fff;
+    font-weight:400;
+    font-size: 20px;
+}
+.cardrow .all{
+    text-align: end;
+    font-size: 25px;
+    margin-top: 13px;
+    text-decoration: none;
+}
+.rowbanner img{
+    margin-top: 4vh;
+    border-radius: 10px 10px 0 0;
+    
+}
+.banner{
+    background-image: url("https://img.freepik.com/free-photo/bottle-wine-glasses-corkscrew-set-evening_157027-4419.jpg?w=996&t=st=1708183093~exp=1708183693~hmac=57d74ee90f0dc2a5c6a0b22594c569057b89210ce2a75a75ac9f3ecc8e61685d");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    
+}
+.banner h1{
+    font-size: 40px;
+    color: #555148 !important;
+    text-transform: uppercase;
+    
+
+}
+.banner h3{
+    font-size: 35px;
+    color: #fff !important;
+
+
+}
+.banner input,::placeholder{
+    border-radius:10px ;
+    font-size: 18px;
+    font-weight: 100;
+    
+    
+    
+}
+.banner2{
+    background-image: url("https://img.freepik.com/premium-photo/fresh-grape-gourmet-bread-wine-camembert-rustic-table-generated-by-artificial-intelligence_25030-64091.jpg?w=826");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+
+}
+.banner2 h1{
+    font-size: 40px;
+    color: #555148 !important;
+    text-transform: uppercase;
+    
+}
+.banner2 h3{
+    font-size: 35px;
+    color: #fff !important;
+
+}
+.banner2 input,::placeholder{
+    border-radius:10px ;
+    font-size: 18px;
+    font-weight: 100;
+    
+    
+}
+.banner3 img{
+    border-radius:10px 10px 0 0;
+    margin-top: 50px;
+
+}
+.banner4{
+    background-color:#ffff99 !important ;
+    margin-top: 50px;
+}
+.banner4 h3{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner4 img{
+  height: auto;
+  width: 170px;
+  margin-bottom: 20px;
+}
+footer{
+    background-color:  #660033;
+    
+
+}
+footer h3{
+    color:#a07309 ;
+    margin-top: 40px;
+    font-size: 25px;
+}
+footer p{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+footer ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+   
+}
+footer i{
+    font-size: 25px;
+    margin-top: 10px;
+    margin: 10px;
+    color: #fff;
+}
+.backslider p{
+    position: absolute;
+    top: 180px;
+    height: 300px;
+    width: 50%;
+    left: 30px;
+    right: 40px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+
+}
+/* .brand_ban{
+    background-image: url("https://img.freepik.com/free-photo/front-view-wine-glass-with-little-wine-inside-dark-color-champagne-xmas-alcohol-drink_140725-93217.jpg?w=740&t=st=1708938541~exp=1708939141~hmac=bbd0b0626ba3060a22d15e62699c24867f8bf5ef74cc5b780c6725cf725ce285");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.brand_ban img{
+    height: 200px;
+    width: 150px;
+}
+.brand_ban .row{
+    margin-top: 70px;
+}
+/* .brand_ban span{
+    position: relative;
+    bottom: 40px;
+} */
+.brand_ban h3{
+    position: relative;
+    top: 75px;
+}
+.brand_ban h4{
+    position: relative;
+    bottom: 80px;
+    right: 30px;
+    font-weight: bold;
+}
+.brand_ban button{
+    margin-left: 30px;
+    color: #fff;
+    background-color: #4d004d;
+    font-size: 15px;
+    text-align: center;
+    width: 160px;   
+}
+.log h1{
+    margin-top: 100px;
+    text-align: center;
+    font-weight:700 !important;
+    color:var(--alpha-color) !important;
+    font-size: 28px !important;
+    line-height: 40px !important;
+}
+.log p{
+    font-size: 15px;
+    color: #727272 !important;
+    font-family: var(--primary-font);
+    letter-spacing: -0.025em;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+}
+.log form{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.log input{
+    width: 100%;
+    border: none !important;
+    padding: 6px 0;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 0;
+    border-bottom: solid 2px rgba(0,0,0,0.1) !important;
+    box-shadow: none !important;
+    outline: none !important;
+    background-color: transparent !important;
+    text-align: center;
+}
+.bg-transparent {
+    background: transparent !important;
+}
+.bg-transparent {
+    --bs-bg-opacity: 1;
+    background-color: transparent!important;
+}
+.log button{
+    text-align: center;
+    cursor: pointer;
+    background-color: #ae9479 !important;
+    width: 50% !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    font-weight: 600 !important;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.more a{
+    margin-left: 30px;
+    color:#555148
+}
+.more img{
+    width: 120px;
+    height: 120px;
+}
+.main1{
+   padding-top: 120px;
+}
+.main1 h3,p{
+    color: #555148;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.main1 button{
+    width: 180px;
+    text-align: center;
+    color: #fff;
+    background-color: #660033;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.main2 h1{
+    margin-top: 50px;
+}
+.main2 .card{
+    margin-top: 50px;
+}
+.main3 h1{
+    margin-top: 50px;
+}
+.main3 img{
+    width: 150px;
+    height: 150px;
+    
+}
+.main2 img{
+    width: 150px;
+    height: 150px;
+}
+.main3 .card{
+    margin-top: 50px;
+}
+.main4 h1{
+    margin-top: 50px;
+}
+.main5 h1{
+    margin-top: 50px;
+}
+.main6 h1{
+    margin-top: 50px;
+}
+.main7 h1{
+    margin-top: 50px;
+}
+.main8 h1{
+    margin-top: 50px;
+}
+.main9 h1{
+    margin-top: 50px;
+}
+.main4 .card{
+    margin-top: 50px;
+}
+.main5 .card{
+    margin-top: 50px;
+}
+.main6 .card{
+    margin-top: 50px;
+}
+.main7 .card{
+    margin-top: 50px;
+}
+.main8 .card{
+    margin-top: 50px;
+}
+.main9 .card{
+    margin-top: 50px;
+}
+.alco .card-img-top{
+    width: 150px;
+    height: 150px;
+
+}
+.alco .card-text{
+    font-size: 12px !important;
+    font-weight: bold;
+}
+.alco .card{
+    height: 290px;
+    
+}
+.regi_form img{
+    height:350px ;
+    width: 320px;
+   
+}
+.regi_form button{
+    background-color: #660033;
+    color: #fff;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+   
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .backslider p {
+      position: absolute;
+      top: 100px;
+      width: 300px;
+      height: 300px;
+      right: 60px;
+      font-size: 12px;
+
+    }
+  }
+  
+
+
